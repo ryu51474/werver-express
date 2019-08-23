@@ -3,7 +3,7 @@ const app = express()
 const hbs = require('hbs');
 require('./hbs/helpers');
 
-const puerto =process.env.PORT || 3000;
+const puerto =process.env.PORT || 3000; //esto configura el puerto de escucha, que puede que sea el que me de Heroku o el 3000 por defecto
 
 
 //esto se llama middlewhere
